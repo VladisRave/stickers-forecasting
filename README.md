@@ -37,8 +37,9 @@ pip install -r requirements.txt
 ## Project Structure
 ```
 ├── data/                   # Raw and processed datasets
-│   ├── raw/                
-│   └── processed/          
+│   ├── data_after_eda.csv/                
+│   ├── test.csv/                
+│   └── train.csv/          
 ├── results/                # Training artifacts
 │   ├── best_model.pth      
 │   └── scaler_params.pkl   
